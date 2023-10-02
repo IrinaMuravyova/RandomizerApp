@@ -13,6 +13,8 @@
 		881E55832ACAA91B004EB66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881E55812ACAA91B004EB66D /* Main.storyboard */; };
 		881E55852ACAA91C004EB66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881E55842ACAA91C004EB66D /* Assets.xcassets */; };
 		881E55882ACAA91C004EB66D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881E55862ACAA91C004EB66D /* LaunchScreen.storyboard */; };
+		881E55902ACAB367004EB66D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E558F2ACAB367004EB66D /* SettingsViewController.swift */; };
+		881E55922ACAB4ED004EB66D /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E55912ACAB4ED004EB66D /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		881E55842ACAA91C004EB66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881E55872ACAA91C004EB66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881E55892ACAA91C004EB66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881E558F2ACAB367004EB66D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		881E55912ACAB4ED004EB66D /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				881E557B2ACAA91B004EB66D /* AppDelegate.swift */,
 				881E557D2ACAA91B004EB66D /* SceneDelegate.swift */,
 				881E557F2ACAA91B004EB66D /* ViewController.swift */,
+				881E55912ACAB4ED004EB66D /* NavigationViewController.swift */,
+				881E558F2ACAB367004EB66D /* SettingsViewController.swift */,
 				881E55812ACAA91B004EB66D /* Main.storyboard */,
 				881E55842ACAA91C004EB66D /* Assets.xcassets */,
 				881E55862ACAA91C004EB66D /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				881E55802ACAA91B004EB66D /* ViewController.swift in Sources */,
 				881E557C2ACAA91B004EB66D /* AppDelegate.swift in Sources */,
 				881E557E2ACAA91B004EB66D /* SceneDelegate.swift in Sources */,
+				881E55922ACAB4ED004EB66D /* NavigationViewController.swift in Sources */,
+				881E55902ACAB367004EB66D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +310,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.IrinaMuravyova.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.IrinaMuravyova.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
